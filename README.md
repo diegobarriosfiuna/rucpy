@@ -1,7 +1,7 @@
 # rucpy 🇵🇾
 
 [![tests](https://github.com/diegobarriosfiuna/rucpy/actions/workflows/tests.yml/badge.svg)](https://github.com/diegobarriosfiuna/rucpy/actions/workflows/tests.yml)
-![python](https://img.shields.io/badge/python-3.9%2B-blue)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![licencia](https://img.shields.io/badge/licencia-MIT-green)
 
 Validá RUC paraguayos y calculá su dígito verificador (DV) en una línea. Sin dependencias.

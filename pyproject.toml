@@ -7,7 +7,7 @@ name = "rucpy"
 version = "0.1.0"
 description = "Validación y cálculo del dígito verificador del RUC paraguayo (módulo 11, SET/DNIT)."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = "MIT"
 authors = [{ name = "Diego Raúl Barrios" }]
 keywords = ["ruc", "paraguay", "set", "dnit", "sifen", "validacion", "dv"]
@@ -38,4 +38,4 @@ pythonpath = ["src"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py39"
+target-version = "py310"
