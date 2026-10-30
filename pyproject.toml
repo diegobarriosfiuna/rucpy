@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rucpy"
+version = "0.1.0"
+description = "Validación y cálculo del dígito verificador del RUC paraguayo (módulo 11, SET/DNIT)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Diego Raúl Barrios" }]
+keywords = ["ruc", "paraguay", "set", "dnit", "sifen", "validacion", "dv"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: Spanish",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-cov", "ruff"]
+
+[project.scripts]
+rucpy = "rucpy.cli:main"
+
+[project.urls]
+Repository = "https://github.com/TU_USUARIO/rucpy"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rucpy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "src", "README.md"]
+addopts = "--doctest-modules --doctest-glob=README.md"
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
