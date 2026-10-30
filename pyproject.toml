@@ -26,7 +26,7 @@ dev = ["pytest>=7", "pytest-cov", "ruff"]
 rucpy = "rucpy.cli:main"
 
 [project.urls]
-Repository = "https://github.com/TU_USUARIO/rucpy"
+Repository = "https://github.com/diegobarriosfiuna/rucpy"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/rucpy"]

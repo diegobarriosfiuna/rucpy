@@ -1,6 +1,6 @@
 # rucpy 🇵🇾
 
-[![tests](https://github.com/TU_USUARIO/rucpy/actions/workflows/tests.yml/badge.svg)](https://github.com/TU_USUARIO/rucpy/actions/workflows/tests.yml)
+[![tests](https://github.com/diegobarriosfiuna/rucpy/actions/workflows/tests.yml/badge.svg)](https://github.com/diegobarriosfiuna/rucpy/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![licencia](https://img.shields.io/badge/licencia-MIT-green)
 
@@ -11,7 +11,7 @@ Sirve para limpiar padrones de clientes y proveedores antes de migrar a un ERP, 
 ## Instalación
 
 ```bash
-pip install git+https://github.com/TU_USUARIO/rucpy.git
+pip install git+https://github.com/diegobarriosfiuna/rucpy.git
 ```
 
 ## Uso en Python
@@ -57,7 +57,7 @@ Si el número trae letras, se reemplazan por su código ASCII antes del cálculo
 ## Desarrollo
 
 ```bash
-git clone https://github.com/TU_USUARIO/rucpy.git
+git clone https://github.com/diegobarriosfiuna/rucpy.git
 cd rucpy
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
